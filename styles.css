@@ -21,12 +21,11 @@
     --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     --gradient-4: radial-gradient(circle closest-corner at 50% 0, #362a0c, #271e09 23%, #000), url("https://cdn.prod.website-files.com/66b5ef2e857e660c5cda416a/673b5232c37d4d39ec82fde4_Localization%20Demo.svg");
 
-
 }
 
 /* Reset & Base Styles */
-* {
-    margin: 0;
+*
+{    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -222,6 +221,7 @@ body {
     background: var(--primary-color);
     color: white;
     transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
 }
 
 .btn-full {
